@@ -9,5 +9,5 @@ if (( $(echo "$CPU > 80" | bc -l) ))
 then
     echo "WARNING: CPU usage is HIGH!"
 else
-    echo "CPU Status: Normal"
+    echo "CPU Status: Healthy"
 fi
