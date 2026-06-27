@@ -1,0 +1,22 @@
+  
+ SERVER HEALTH REPORT 
+  
+Date: Sat Jun 27 13:30:36 UTC 2026
+
+CPU Usage:
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.2Gi       2.4Gi       3.8Mi       270Mi       2.5Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  8.4G  948G   1% /
+
+Nginx Status:
+active
+
+Docker Status:
+  
