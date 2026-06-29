@@ -1,8 +1,9 @@
 
 echo " NGINX STATUS "
-if systemctl is-active --quiet nginx
+
+if pgrep nginx > /dev/null
 then
     echo "Nginx is Running"
 else
-    echo "Nginx is Stopped"
+    echo "Nginx is Not Running"
 fi

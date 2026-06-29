@@ -1,9 +1,10 @@
+#!/bin/bash
 
-echo " DOCKER STATUS "
+echo "========== DOCKER STATUS =========="
 
-if systemctl is-active --quiet docker
+if command -v docker >/dev/null 2>&1
 then
-    echo "Docker is Running"
+    echo "Docker CLI is Installed"
 else
-    echo "Docker is Not Installed or Not Running"
+    echo "Docker CLI is Not Available Inside Container"
 fi
